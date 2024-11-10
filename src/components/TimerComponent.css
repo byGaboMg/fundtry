@@ -1,0 +1,76 @@
+.timer {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.time {
+  font-size: 2rem;
+  margin: 20px;
+}
+
+.time-expired {
+  font-size: 3rem;
+  color: #ff5722;
+  font-weight: bold;
+  animation: flash 1s ease-in-out infinite;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+.input-time {
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  width: 50px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 100px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  background-color: #20c997;
+  border: none;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: #17a589;
+}
+
+button:focus {
+  outline: none;
+}
+
+.play-pause-button {
+  background-color: #ff5722;
+}
+
+.reset-button {
+  background-color: #607d8b;
+}
