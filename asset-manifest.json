@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fundtry/static/css/main.c8661964.css",
+    "main.js": "/fundtry/static/js/main.e62eb6de.js",
+    "static/js/453.9ec2c750.chunk.js": "/fundtry/static/js/453.9ec2c750.chunk.js",
+    "static/media/logo.svg": "/fundtry/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/fundtry/index.html",
+    "main.c8661964.css.map": "/fundtry/static/css/main.c8661964.css.map",
+    "main.e62eb6de.js.map": "/fundtry/static/js/main.e62eb6de.js.map",
+    "453.9ec2c750.chunk.js.map": "/fundtry/static/js/453.9ec2c750.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8661964.css",
+    "static/js/main.e62eb6de.js"
+  ]
+}
