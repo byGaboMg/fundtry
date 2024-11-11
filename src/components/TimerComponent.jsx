@@ -60,7 +60,7 @@ const Timer = () => {
       </div>
 
       <div className="input-time">
-        <label htmlFor="time">Selecciona el tiempo (en segundos):</label>
+        <label htmlFor="time">Selecciona el tiempo (en segundos): </label>
         <input
           type="number"
           id="time"

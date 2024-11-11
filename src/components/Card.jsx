@@ -13,23 +13,11 @@ const Card = ({ titleFront, textFront, titleBack, textBack }) => {
       <div className={`content ${isFlipped ? "flipped" : ""}`}>
         <div className="back">
           <div className="back-content">
-            <svg
-              stroke="#ffffff"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 50 50"
-              height="50px"
-              width="50px"
-              fill="#ffffff"
-            >
-              <g strokeWidth={0} id="SVGRepo_bgCarrier" />
-              <g
-                strokeLinejoin="round"
-                strokeLinecap="round"
-                id="SVGRepo_tracerCarrier"
-              />
-            </svg>
-            <strong>{titleFront}</strong>
+            <strong>
+              <div className="numeroTarjeta">{textBack}</div>
+              <h2>{titleFront}</h2>
+            </strong>
+            <h6>{textFront}</h6>
           </div>
         </div>
         <div className="front">
@@ -75,7 +63,7 @@ const Card = ({ titleFront, textFront, titleBack, textBack }) => {
                   </g>
                 </svg>
               </div>
-              <p className="card-footer">30 Mins &nbsp; | &nbsp; 1 Serving</p>
+              <p className="card-footer">30s - 1min</p>
             </div>
           </div>
         </div>
