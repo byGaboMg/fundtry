@@ -76,7 +76,7 @@
 /* Para pantallas más pequeñas, reducimos el número de columnas en la grid */
 @media (max-width: 1200px) {
   .grid {
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    grid-template-columns: repeat(4, 1fr); /* 3 columnas */
   }
 }
 
